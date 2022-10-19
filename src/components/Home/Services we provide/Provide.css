@@ -1,0 +1,46 @@
+.text{
+    position: absolute;
+            bottom: 20px;
+            left: 10px;
+            color: white;
+            text-align: center;
+            margin-left: 10px;
+            font-weight:bold;
+}
+.img{
+   
+            position: relative;
+            margin:0px ;
+}
+.image{
+    
+    width: 50px;
+    height: 300px;
+}
+.text-block{
+    background-color:#0eb144;
+    text-align: center;
+    color: white;
+    padding:0, 2px;
+   
+    
+    margin-bottom: -25px;
+    position:relative;
+    
+    left: 490px; 
+    border-radius: 5px;  
+  
+  width: 140px;
+}
+@media only screen and (max-width: 700px) {
+    .text-block {
+        left: 30px;
+    }
+    .image{
+        
+        height: 200px;
+        width:200px ;
+        margin: 0;
+    }
+  }
+  

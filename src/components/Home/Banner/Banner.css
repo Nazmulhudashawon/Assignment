@@ -1,0 +1,45 @@
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    padding: 20px;
+      
+    }
+    .fa{
+        position: absolute;
+        top: 25px;
+        left: 25px; 
+        color: #00838f;;
+    }
+    .search input{
+
+        height: 60px;
+        text-indent: 25px;
+        border: 2px solid #d6d4d4;
+        border-radius: 5px;
+        width: 600px;
+        height: 40px;
+    
+       }
+       .bimage{
+        height: 350px;
+       }
+       .header{
+        background-color:#00838f;
+       }
+       .icon{
+        color: white;
+        
+        margin-bottom: 0;
+       }
+       @media only screen and (max-width: 700px) {
+        .search input {
+            width:250px;
+        }
+        .d-inline{
+            /* width:50% ; */
+           
+            
+        }
+        
+      }
+      
