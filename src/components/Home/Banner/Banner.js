@@ -5,6 +5,13 @@ import image2 from "../../../images/images.jpg"
 import image3 from "../../../images/OFF_Overtime_Product_Collections_Large_2X.jpg"
 import { HiOutlineMicrophone } from 'react-icons/hi';
 import {AiOutlineSearch } from 'react-icons/ai';
+import {BsFillChatDotsFill } from 'react-icons/bs';
+import {AiOutlineShoppingCart} from 'react-icons/ai';
+import {AiFillBell } from 'react-icons/ai';
+
+
+
+
 
 const Banner = () => {
     return (
@@ -18,16 +25,27 @@ const Banner = () => {
      <div class='col-lg-auto col-md-6 col-sm-2 d-inline'>
       <div class="search">
       <p class="fa"><AiOutlineSearch size="25px" /></p>
-     <input type="text" class="" placeholder="Search for products..."></input>
+     <input type="text" class="" placeholder="    Search for products..."></input>
 
      </div>
 
       </div>
     
      
-      <div class="col-lg-2 col-md-6 col-sm-6 ">
-      <p class="icon"><HiOutlineMicrophone size="30px"/></p>
+      <div class="col-lg-2 col-md-6 col-sm-6 hide ">
+      <div className='row'>
+      <p class="icon col"><HiOutlineMicrophone size="30px"/></p>
+      <p class="icon col"><BsFillChatDotsFill  size="30px"/></p>
+      <p class="icon col"><AiOutlineShoppingCart size="30px"/></p>
+      <p class="icon col"><AiFillBell size="30px"/></p>
       </div>
+      
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6 justify-content-end align-items-end hide  " >
+      <button>Login</button>
+
+      </div>
+    
 
 </div>
 
