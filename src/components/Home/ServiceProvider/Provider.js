@@ -124,9 +124,15 @@ const Provider = () => {
       <h3 class="text-center text-decoration-underline mt-5">Handicrafts & Decoratives</h3>
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 shadow">
+          <div class="col shadow">
             <img src={image3} class="d-block w-100" alt="" />
             <p>pranjali</p>
+          </div>
+          <div class="col">
+
+          </div>
+          <div class="col">
+
           </div>
         
          

@@ -74,23 +74,33 @@ const Products = () => {
       <h3 class="text-center text-decoration-underline mt-5">Laundry</h3>
     
         <div class="row">
-          <div class="col-lg-4 shadow">
+          <div class="col shadow">
             <img src={image10} class="d-block w-100" alt="" />
             <p>BLANKET DOUBLE</p>
           </div>
-          <div class="col-lg-4 shadow">
+          <div class="col  shadow">
             <img src={image11} class="d-block w-100" alt="" />
             <p>Suit</p>
           </div>
+          <div class="col">
+
+          </div>
+
           
         </div>
       
       <h3 class="text-center text-decoration-underline mt-5">Electronics</h3>
      
         <div class="row">
-          <div class="col-lg-4 shadow">
+          <div class="col shadow">
             <img src={image12} class="d-block w-100" alt="" />
             <p>Apple Mackbbok Air</p>
+          </div>
+          <div class="col">
+
+          </div>
+          <div class="col">
+
           </div>
         
          
