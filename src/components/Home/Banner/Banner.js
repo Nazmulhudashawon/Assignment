@@ -18,11 +18,11 @@ const Banner = () => {
         <div>
            
 
-<div class="row  justify-content-center align-items-center header gx-0">
+<div class="row justify-content-evenly   align-items-center header gx-0">
 
   
 
-     <div class='col-lg-auto col-md-6 col-sm-2 d-inline'>
+     <div class='col-lg-4 col-md-6 col-sm-2 d-inline '>
       <div class="search">
       <p class="fa"><AiOutlineSearch size="25px" /></p>
      <input type="text" class="" placeholder="    Search for products..."></input>
@@ -41,8 +41,8 @@ const Banner = () => {
       </div>
       
       </div>
-      <div class="col-lg-2 col-md-6 col-sm-6 justify-content-end align-items-end hide  " >
-      <button>Login</button>
+      <div  class="btn col-lg-2 col-md-6 col-sm-6 justify-content-end align-items-end hide  " >
+      <button type="button" class="btn btn-light ">Login</button>
 
       </div>
     

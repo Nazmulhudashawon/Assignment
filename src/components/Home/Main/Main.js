@@ -13,7 +13,7 @@ import { MdFeedback } from 'react-icons/md';
 const Main = () => {
     return (
         
-            <div class="container mt-5 me-0 ">
+            <div class="container mt-5 ">
   <div class="row">
     <div class="col align-items-center justify-content-center ">
     <p class="align-content-center"><FaMobileAlt size='60px' /></p>
@@ -21,33 +21,33 @@ const Main = () => {
     </div>
     <div class="col">
       <p><FiMonitor size='60px' /></p>
-      DTH Recharge
+     <p> DTH Recharge</p>
     </div>
     <div class="col">
    <p><BsCoin size='60px' /></p>
-      Loans
+     <p> Loans</p>
     </div>
     <div class="col">
     <p><HiSpeakerphone size='60px'/></p>
-      Promotion
+      <p>Promotion</p>
     </div>
   </div>
   <div class="row mt-4">
     <div class="col">
       <p><BsNewspaper size='60px'/></p>
-      News
+    <p>  News</p>
     </div>
     <div class="col">
     <p><ImBlogger2 size='60px'/></p>
-      Blog
+     <p> Blog</p>
     </div>
     <div class="col">
       <p><GiHumanPyramid size='60px'/></p>
-      Jobs
+   <p>   Jobs</p>
     </div>
     <div class="col">
     <p>< MdFeedback size='60px'/></p>
-      Anonymous Feedback
+     <p> Anonymous Feedback</p>
     </div>
   </div>
 </div>

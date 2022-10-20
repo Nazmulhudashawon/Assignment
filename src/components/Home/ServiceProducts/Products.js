@@ -15,79 +15,80 @@ import image12 from '../../..//images/apple-macbook-pro-touch-bar-16-i9-2.3-16gb
 
 const Products = () => {
   return (
-    <div>
-      <h1 class="text-center mt-5">Popular Service Products</h1>
+    <div class="container">
+      <h1 class="text-center mt-5 ">Popular Service Products</h1>
+      
+
+      <h3 class="text-center text-decoration-underline mt-5">Daily Needs</h3>
+     
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col shadow ">
+            <img src={image4} class="d-block w-100" alt="" />
+            <p>almond Milk Cacao-</p>
+          </div>
+          <div class="col shadow">
+            <img src={image5} class="d-block w-100" alt="" />
+            <p>Juice Lichi Luscious</p>
+          </div>
+          <div class="col shadow">
+            <img src={image6} class="d-block w-100" alt="" />
+            <p>Amla Juice</p>
+          </div>
+        
+      </div>
       <h3 class="text-center text-decoration-underline mt-5">Construction</h3>
-      <div class="container">
+      
         <div class="row">
-          <div class="col">
+          <div class="col shadow">
             <img src={image1} class="d-block w-100" alt="" />
             <p>Ambuja Cement</p>
           </div>
-          <div class="col">
+          <div class="col shadow">
             <img src={image2} class="d-block w-100" alt="" />
             <p>Royel Brick</p>
           </div>
-          <div class="col">
+          <div class="col shadow">
             <img src={image3} class="d-block w-100" alt="" />
             <p>Dehri Bihar Morang</p>
           </div>
         </div>
-      </div>
-
-      <h3 class="text-center text-decoration-underline mt-5">Daily Needs</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src={image4} class="d-block w-100" alt="" />
-            <p>almond Milk Cacao-</p>
-          </div>
-          <div class="col">
-            <img src={image5} class="d-block w-100" alt="" />
-            <p>Juice Lichi Luscious</p>
-          </div>
-          <div class="col">
-            <img src={image6} class="d-block w-100" alt="" />
-            <p>Amla Juice</p>
-          </div>
-        </div>
-      </div>
+      
 
       <h3 class="text-center text-decoration-underline mt-5">Consultancy</h3>
-      <div class="container">
+     
         <div class="row">
-          <div class="col">
+          <div class="col shadow">
             <img src={image7} class="d-block w-100" alt="" />
             <p>TDS Filing</p>
           </div>
-          <div class="col">
+          <div class="col shadow">
             <img src={image8} class="d-block w-100" alt="" />
             <p>Concurrent Audit</p>
           </div>
-          <div class="col">
+          <div class="col shadow">
             <img src={image9} class="d-block w-100" alt="" />
             <p>Tax Audit</p>
           </div>
         </div>
-      </div>
+      
       <h3 class="text-center text-decoration-underline mt-5">Laundry</h3>
-      <div class="container">
+    
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 shadow">
             <img src={image10} class="d-block w-100" alt="" />
             <p>BLANKET DOUBLE</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 shadow">
             <img src={image11} class="d-block w-100" alt="" />
             <p>Suit</p>
           </div>
           
         </div>
-      </div>
+      
       <h3 class="text-center text-decoration-underline mt-5">Electronics</h3>
-      <div class="container">
+     
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 shadow">
             <img src={image12} class="d-block w-100" alt="" />
             <p>Apple Mackbbok Air</p>
           </div>
@@ -95,7 +96,7 @@ const Products = () => {
          
         </div>
       </div>
-    </div>
+    
   );
 };
 

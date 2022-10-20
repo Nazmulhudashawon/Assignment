@@ -2,3 +2,26 @@
     width: 200px;
     height: 250px;
 }
+h1{
+    color: #00838f;
+    background-color: #d8f0f5;
+}
+p{
+    text-align: center;
+}
+.shadow{
+    margin: 10px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+@media only screen and (max-width: 700px) {
+    .shadow {
+        height:200px;
+    }
+    .shadow img{
+        height: 100px;
+    }
+   
+    
+  }
+  
